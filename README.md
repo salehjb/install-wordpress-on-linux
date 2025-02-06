@@ -19,8 +19,8 @@ Ensure you have the following before running the script:
 ## Installation & Usage
 1. Clone or download the script:
    ```sh
-   git clone https://github.com/your-repo/wordpress-installer.git
-   cd wordpress-installer
+   git clone https://github.com/salehjb/install-wordpress-on-linux.git
+   cd linux-wordpress-installer
    ```
 2. Grant execute permissions:
    ```sh
