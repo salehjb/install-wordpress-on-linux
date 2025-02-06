@@ -19,8 +19,8 @@ Ensure you have the following before running the script:
 ## Installation & Usage
 1. Clone or download the script:
    ```sh
-   git clone https://github.com/salehjb/install-wordpress-on-linux.git
-   cd linux-wordpress-installer
+   git clone https://github.com/your-repo/wordpress-installer.git
+   cd wordpress-installer
    ```
 2. Grant execute permissions:
    ```sh
@@ -31,6 +31,13 @@ Ensure you have the following before running the script:
    sudo ./install_wordpress.sh
    ```
 4. Follow the on-screen prompts to enter the project name and MySQL credentials.
+
+## Installation Directory
+The WordPress installation will be placed in:
+```
+/var/www/html/<project_name>
+```
+where `<project_name>` is the name you specify during installation.
 
 ## Post-Installation Steps
 - Navigate to `http://your-server-ip/` to complete the WordPress setup.
@@ -56,4 +63,3 @@ Feel free to fork the repository and submit pull requests for improvements.
 
 ## License
 This project is licensed under the MIT License.
-
